@@ -25,7 +25,7 @@
             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Cycle</span></a>
             <ul class="dropdown-menu">
               <li><a class="nav-link" href="{{route('product.form') }}">Add Cycle</a></li>
-              <li><a class="nav-link" href="layout-transparent.html">Cycle List</a></li>
+              <li><a class="nav-link" href="{{route ('product.list') }}">Cycle List</a></li>
             </ul>
           </li>
 

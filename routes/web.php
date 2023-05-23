@@ -24,3 +24,4 @@ Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.c
 
 Route::get('/add/product/form',[ProductController::class,'productForm'])->name('product.form');
 Route::post('/product/store',[ProductController::class,'productStore'])->name('product.store');
+Route::get('/product/list',[ProductController::class,'productList'])->name('product.list');

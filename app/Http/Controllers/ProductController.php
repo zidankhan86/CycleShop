@@ -25,4 +25,8 @@ class ProductController extends Controller
         ]);
         return back();
     }
+
+    public function productList(){
+        return view('backend.pages.product.productList');
+    }
 }
