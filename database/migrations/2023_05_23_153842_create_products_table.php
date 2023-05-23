@@ -17,7 +17,7 @@ return new class extends Migration
             $table->double('price');
             $table->text('description');
             $table->string('stock');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->string('status')->default('pending');
             $table->timestamps();
         });

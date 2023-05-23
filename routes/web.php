@@ -23,3 +23,4 @@ Route::get('/',[IndexController::class,'home'])->name('home');
 Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.category');
 
 Route::get('/add/product/form',[ProductController::class,'productForm'])->name('product.form');
+Route::post('/product/store',[ProductController::class,'productStore'])->name('product.store');

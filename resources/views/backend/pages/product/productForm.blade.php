@@ -2,6 +2,9 @@
 @section('main')
 
 <div class="col-12 col-md-12 col-lg-12">
+    <form action="{{route ('product.store') }}" method="post" enctype="multipart/form-data">
+        @csrf
+
     <div class="card">
       <div class="card-header">
         <h4>Add Cycle</h4>
@@ -29,7 +32,7 @@
         </div>
         <div class="form-group">
           <label>Stock</label>
-          <input type="number" name="number" class="form-control invoice-input">
+          <input type="number" name="stock" class="form-control invoice-input">
         </div>
 
         <div class="form-group">
@@ -43,6 +46,7 @@
         <button type="submit" class="btn btn-info">Submit</button>
       </div>
     </div>
+</form>
 
   </div>
 
