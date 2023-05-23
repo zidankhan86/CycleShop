@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,5 @@ Route::get('/', function () {
 
 Route::get('/',[IndexController::class,'home'])->name('home');
 Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.category');
+
+Route::get('/add/product/form',[ProductController::class,'productForm'])->name('product.form');
