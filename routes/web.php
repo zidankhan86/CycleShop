@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/',[IndexController::class,'home'])->name('home');
-Route::get('/test',[IndexController::class,'test'])->name('test');
+Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.category');

@@ -10,8 +10,8 @@ class IndexController extends Controller
         return view('backend.pages.home.home');
     }
 
-    public function test(){
-        return view('backend.pages.list');
+    public function category(){
+        return view('backend.pages.category.categoryForm');
     }
 
 
