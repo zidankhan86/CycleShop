@@ -27,6 +27,8 @@ class ProductController extends Controller
     }
 
     public function productList(){
-        return view('backend.pages.product.productList');
+
+        $cycles = Product::all();
+        return view('backend.pages.product.productList',compact('cycles'));
     }
 }
