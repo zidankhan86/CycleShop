@@ -28,6 +28,9 @@ class IndexController extends Controller
         ]);
         return redirect()->back();
     }
+    public function categoryList(){
+        return view('backend.pages.category.categoryList');
+    }
 
 
 }
