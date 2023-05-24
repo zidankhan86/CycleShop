@@ -36,6 +36,21 @@
         </div>
 
         <div class="form-group">
+            <label>Category Type</label>
+
+
+            <select name="category_id" id="" class="form-control">
+
+                @foreach ($categories as $category)
+
+                <option value="{{$category->id}}">{{$category->name}}</option>
+
+                @endforeach
+
+            </select>
+          </div>
+
+        <div class="form-group">
           <label>Enter Image</label>
           <input type="file" name="image" class="form-control ">
         </div>
