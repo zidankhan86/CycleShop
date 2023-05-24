@@ -29,7 +29,8 @@ class IndexController extends Controller
         return redirect()->back();
     }
     public function categoryList(){
-        return view('backend.pages.category.categoryList');
+        $categories = Category::all();
+        return view('backend.pages.category.categoryList',compact('categories'));
     }
 
 
