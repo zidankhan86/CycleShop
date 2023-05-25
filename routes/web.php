@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/registration',[AuthController::class,'registration'])->name('registration');
+Route::get('/login',[AuthController::class,'login'])->name('login');
 
 Route::get('/',[IndexController::class,'home'])->name('home');
 Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.category');
