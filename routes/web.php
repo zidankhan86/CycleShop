@@ -21,6 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('/registration',[AuthController::class,'registration'])->name('registration');
+Route::post('/get/registration',[AuthController::class,'getRegistration'])->name('get.registration');
 Route::get('/login',[AuthController::class,'login'])->name('login');
 
 Route::get('/',[IndexController::class,'home'])->name('home');

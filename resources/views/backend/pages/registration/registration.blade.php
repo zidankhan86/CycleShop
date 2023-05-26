@@ -90,25 +90,28 @@
 									<div class="form-group">
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-user"> </i></span>
-											<input type="text" class="form-control" placeholder="Name">
+											<input type="text" name="name" class="form-control" placeholder="Name">
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-envelope"> </i></span>
-											<input type="email" class="form-control" placeholder="Email Address">
+											<input type="email" name="email" class="form-control" placeholder="Email Address">
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-key"> </i></span>
-											<input type="password" class="form-control" placeholder="Password">
+											<input type="text" name="address" class="form-control" placeholder="address">
 										</div>
 									</div>
+                                    <div>
+                                        <input name="role" type="hidden">
+                                    </div>
 									<div class="form-group">
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-key"> </i></span>
-											<input type="password" class="form-control" placeholder="Confirm Password">
+											<input type="password" name="password" class="form-control" placeholder=" Password">
 										</div>
 									</div>
 									  <button type="submit" class="btn btn-success btn-block">Submit</button>
