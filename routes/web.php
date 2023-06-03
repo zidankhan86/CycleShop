@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -32,3 +33,6 @@ Route::get('/category/list',[IndexController::class,'categoryList'])->name('cate
 Route::get('/add/product/form',[ProductController::class,'productForm'])->name('product.form');
 Route::post('/product/store',[ProductController::class,'productStore'])->name('product.store');
 Route::get('/product/list',[ProductController::class,'productList'])->name('product.list');
+
+Route::get('/customer',[CustomerController::class,'customer'])->name('customer');
+

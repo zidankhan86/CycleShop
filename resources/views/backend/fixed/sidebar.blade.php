@@ -31,7 +31,7 @@
 
         <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Order</span></a></li>
         <li class="dropdown">
-          <a href="#" class="nav-link"><i class="fas fa-th"></i> <span>Customers</span></a>
+          <a href="{{route ('customer') }}" class="nav-link"><i class="fas fa-th"></i> <span>Customers</span></a>
         </li>
 
         <li class="dropdown">

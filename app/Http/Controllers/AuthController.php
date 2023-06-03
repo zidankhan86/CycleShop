@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
@@ -16,6 +17,13 @@ class AuthController extends Controller
     }
 
     public function getRegistration(Request $request){
+
+        $validation = Validator::make($request->all(),[
+
+            "name"=>'required',
+            "email"=>'required',
+        ]);
+
         User::create([
 
             "name"=>$request->name,
