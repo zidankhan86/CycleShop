@@ -34,5 +34,6 @@ Route::get('/add/product/form',[ProductController::class,'productForm'])->name('
 Route::post('/product/store',[ProductController::class,'productStore'])->name('product.store');
 Route::get('/product/list',[ProductController::class,'productList'])->name('product.list');
 
-Route::get('/customer',[CustomerController::class,'customer'])->name('customer');
+Route::get('/customer/form',[CustomerController::class,'customer'])->name('customer');
+Route::post('/customer/store',[CustomerController::class,'customerStore'])->name('customer.store');
 

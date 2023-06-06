@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('stock');
             $table->string('image')->nullable();
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('category_id');
             $table->string('status')->default('pending');
             $table->timestamps();
         });
