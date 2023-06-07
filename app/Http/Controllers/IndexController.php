@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Customer;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
     public function home(){
-        return view('backend.pages.home.home');
+        $totalCustomer = Customer::get()->count();
+        return view('backend.pages.home.home',compact('totalCustomer'));
     }
 
     public function category(){
