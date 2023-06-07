@@ -66,10 +66,10 @@
           </div>
           <div class="card-wrap">
             <div class="card-header">
-              <h4>Balance</h4>
+              <h4>Total Products</h4>
             </div>
             <div class="card-body">
-              $187,13
+              {{ $totalProducts }}
             </div>
           </div>
         </div>
