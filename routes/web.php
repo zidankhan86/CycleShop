@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -21,11 +22,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/',[HomeController::class,'website'])->name('website');
+
+
+
 Route::get('/registration',[AuthController::class,'registration'])->name('registration');
 Route::post('/get/registration',[AuthController::class,'getRegistration'])->name('get.registration');
 Route::get('/login',[AuthController::class,'login'])->name('login');
 
-Route::get('/',[IndexController::class,'home'])->name('home');
+Route::get('/admin',[IndexController::class,'home'])->name('home');
 Route::get('/cycle/category',[IndexController::class,'category'])->name('cycle.category');
 Route::post('/category/create',[IndexController::class,'categoryCreate'])->name('category.create');
 Route::get('/category/list',[IndexController::class,'categoryList'])->name('category.list');

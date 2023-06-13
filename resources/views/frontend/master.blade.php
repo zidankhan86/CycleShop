@@ -14,21 +14,21 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="frontend/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="frontend/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="frontend/css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="frontend/images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="frontend/css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- owl stylesheets -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700,800&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="frontend/css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="frontend/css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
@@ -64,15 +64,15 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="#">Login</a></li>
-                        <li><a href="#"><img src="images/trolly-icon.png"></a></li>
-                        <li><a href="#"><img src="images/search-icon.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/trolly-icon.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/search-icon.png"></a></li>
                      </ul>
                   </div>
                   <div></div>
                </form>
             </div>
             <div id="main">
-               <span style="font-size:36px;cursor:pointer; color: #fff" onclick="openNav()"><img src="images/toggle-icon.png" style="height: 30px;"></span>
+               <span style="font-size:36px;cursor:pointer; color: #fff" onclick="openNav()"><img src="frontend/images/toggle-icon.png" style="height: 30px;"></span>
             </div>
          </nav>
          <!-- banner section start -->
@@ -84,7 +84,7 @@
                         <div class="row">
                            <div class="col-md-7">
                               <div class="best_text">Best</div>
-                              <div class="image_1"><img src="images/img-1.png"></div>
+                              <div class="image_1"><img src="frontend/images/img-1.png"></div>
                            </div>
                            <div class="col-md-5">
                               <h1 class="banner_taital">New Model Cycle</h1>
@@ -99,7 +99,7 @@
                         <div class="row">
                            <div class="col-md-7">
                               <div class="best_text">Best</div>
-                              <div class="image_1"><img src="images/img-1.png"></div>
+                              <div class="image_1"><img src="frontend/images/img-1.png"></div>
                            </div>
                            <div class="col-md-5">
                               <h1 class="banner_taital">New Model Cycle</h1>
@@ -114,7 +114,7 @@
                         <div class="row">
                            <div class="col-md-7">
                               <div class="best_text">Best</div>
-                              <div class="image_1"><img src="images/img-1.png"></div>
+                              <div class="image_1"><img src="frontend/images/img-1.png"></div>
                            </div>
                            <div class="col-md-5">
                               <h1 class="banner_taital">New Model Cycle</h1>
@@ -146,7 +146,7 @@
                   <div class="col-md-6">
                      <div class="box_main">
                         <h6 class="number_text">01</h6>
-                        <div class="image_2"><img src="images/img-2.png"></div>
+                        <div class="image_2"><img src="frontend/images/img-2.png"></div>
                      </div>
                   </div>
                   <div class="col-md-6">
@@ -172,7 +172,7 @@
                   <div class="col-md-6">
                      <div class="box_main_3">
                         <h6 class="number_text_2">02</h6>
-                        <div class="image_2"><img src="images/img-3.png"></div>
+                        <div class="image_2"><img src="frontend/images/img-3.png"></div>
                      </div>
                   </div>
                </div>
@@ -182,7 +182,7 @@
                   <div class="col-md-6">
                      <div class="box_main_3">
                         <h6 class="number_text_2">03</h6>
-                        <div class="image_2"><img src="images/img-4.png"></div>
+                        <div class="image_2"><img src="frontend/images/img-4.png"></div>
                      </div>
                   </div>
                   <div class="col-md-6">
@@ -224,10 +224,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="frontend/images/client-img.png" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="frontend/images/quote-icon.png"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -241,10 +241,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="frontend/images/client-img.png" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="frontend/images/quote-icon.png"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -258,10 +258,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="frontend/images/client-img.png" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="frontend/images/quote-icon.png"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -288,7 +288,7 @@
                <div class="row">
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-6.png"></div>
+                        <div class="zoomout frame"><img src="frontend/images/img-6.png"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Speed cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -298,7 +298,7 @@
                   </div>
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-7.png"></div>
+                        <div class="zoomout frame"><img src="frontend/images/img-7.png"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Speed cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -308,7 +308,7 @@
                   </div>
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-8.png"></div>
+                        <div class="zoomout frame"><img src="frontend/images/img-8.png"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Jaump cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -357,15 +357,15 @@
                   </div>
                </div>
                <div class="col-lg-4 col-sm-12">
-                  <div class="call_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_0">Page when looking at its layou</span></a></div>
-                  <div class="call_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_0">Call Now  +01 123467890</span></a></div>
-                  <div class="call_text"><a href="#"><img src="images/mail-icon.png"><span class="padding_left_0">demo@gmail.com</span></a></div>
+                  <div class="call_text"><a href="#"><img src="frontend/images/map-icon.png"><span class="padding_left_0">Page when looking at its layou</span></a></div>
+                  <div class="call_text"><a href="#"><img src="frontend/images/call-icon.png"><span class="padding_left_0">Call Now  +01 123467890</span></a></div>
+                  <div class="call_text"><a href="#"><img src="frontend/images/mail-icon.png"><span class="padding_left_0">demo@gmail.com</span></a></div>
                   <div class="social_icon">
                      <ul>
-                        <li><a href="#"><img src="images/fb-icon1.png"></a></li>
-                        <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                        <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                        <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/fb-icon1.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/twitter-icon.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/linkedin-icon.png"></a></li>
+                        <li><a href="#"><img src="frontend/images/instagram-icon.png"></a></li>
                      </ul>
                   </div>
                   <input type="text" class="email_text" placeholder="Enter Your Email" name="Enter Your Email">
@@ -383,16 +383,16 @@
       </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="frontend/js/jquery.min.js"></script>
+      <script src="frontend/js/popper.min.js"></script>
+      <script src="frontend/js/bootstrap.bundle.min.js"></script>
+      <script src="frontend/js/jquery-3.0.0.min.js"></script>
+      <script src="frontend/js/plugin.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="frontend/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="frontend/js/custom.js"></script>
       <!-- javascript -->
-      <script src="js/owl.carousel.js"></script>
+      <script src="frontend/js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          function openNav() {
