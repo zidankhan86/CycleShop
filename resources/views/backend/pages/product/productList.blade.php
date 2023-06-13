@@ -38,7 +38,8 @@
               <td>{{ $cycle->stock }}</td>
               <td>{{ $cycle->status }}</td>
               <th>
-                <a href="" class="btn btn-success">View</a>
+                <a href="" class="btn btn-danger">View</a>
+                <a href="{{ route('product.Edit',$cycle->id) }}" class="btn btn-success">Edit</a>
                 <a href="" class="btn btn-danger">Delete</a>
               </th>
             </tr>

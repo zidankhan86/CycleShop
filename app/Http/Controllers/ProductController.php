@@ -52,9 +52,11 @@ class ProductController extends Controller
     //Cycle Edit
 
     public function productEdit($id){
-        $cycleEdit = Product::find($id);
+        //dd($id);
+        $cycle = Product::find($id);
+        $categories = Product::all();
 
-        return view();
+        return view('backend.pages.product.productEdit',compact('cycle','categories'));
 
     }
 }
