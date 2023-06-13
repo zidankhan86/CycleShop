@@ -47,4 +47,14 @@ class ProductController extends Controller
         $cycles = Product::all();
         return view('backend.pages.product.productList',compact('cycles'));
     }
+
+
+    //Cycle Edit
+
+    public function productEdit($id){
+        $cycleEdit = Product::find($id);
+
+        return view();
+
+    }
 }
