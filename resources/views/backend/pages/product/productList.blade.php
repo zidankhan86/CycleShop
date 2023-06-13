@@ -32,7 +32,7 @@
 
             <tr>
               <th scope="row">{{ $cycle->id }}</th>
-              <td><img width="50px" height="50px" src="" alt=""></td>
+              <td><img width="50px" height="50px" src="{{ url('/uploads/uploads/'.$cycle->image) }}" alt=""></td>
               <td>{{ $cycle->name }}</td>
               <td>{{ $cycle->price }}</td>
               <td>{{ $cycle->stock }}</td>

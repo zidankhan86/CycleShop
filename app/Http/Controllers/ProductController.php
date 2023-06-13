@@ -26,7 +26,9 @@ class ProductController extends Controller
 
          // dd($imageName);
 
-        //dd($request->all());
+         //dd($request->all());
+
+
         Product::create([
             "name" =>$request->name,
             "price"=>$request->price,
