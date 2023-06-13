@@ -40,7 +40,7 @@
               <th>
                 <a href="{{ route('product.view',$cycle->id) }}" class="btn btn-danger">View</a>
                 <a href="{{ route('product.Edit',$cycle->id) }}" class="btn btn-success">Edit</a>
-                <a href="" class="btn btn-danger">Delete</a>
+                <a href="{{ route('product.delete',$cycle->id) }}" onclick="return confirm('Do You Really Wants To Delete ?')" class="btn btn-danger">Delete</a>
               </th>
             </tr>
 

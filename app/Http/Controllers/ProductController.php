@@ -68,4 +68,10 @@ class ProductController extends Controller
         return view('backend.pages.product.productView',compact('CycleDetails','categories'));
 
     }
+    public function productDelete($id){
+        //dd($id);
+        $delete = Product::find($id)->delete();
+
+        return back();
+    }
 }
