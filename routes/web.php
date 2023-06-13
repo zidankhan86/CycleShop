@@ -34,7 +34,7 @@ Route::get('/add/product/form',[ProductController::class,'productForm'])->name('
 Route::post('/product/store',[ProductController::class,'productStore'])->name('product.store');
 Route::get('/product/list',[ProductController::class,'productList'])->name('product.list');
 Route::get('/product/edit/{id}',[ProductController::class,'productEdit'])->name('product.Edit');
-Route::get('/product/view',[ProductController::class,'productView'])->name('product.view');
+Route::get('/product/view/{id}',[ProductController::class,'productView'])->name('product.view');
 
 Route::get('/customer/form',[CustomerController::class,'customer'])->name('customer');
 Route::post('/customer/store',[CustomerController::class,'customerStore'])->name('customer.store');

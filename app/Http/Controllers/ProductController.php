@@ -60,9 +60,12 @@ class ProductController extends Controller
 
     }
 
-    public function productView(){
+    public function productView($id){
 
-        return view('backend.pages.product.productView');
+        $CycleDetails = Product::find($id);
+
+        $categories = Product::all();
+        return view('backend.pages.product.productView',compact('CycleDetails','categories'));
 
     }
 }

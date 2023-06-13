@@ -4,11 +4,16 @@
 
 <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active list-group-item list-group-item-success">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">List group item heading</h5>
-      <small>3 days ago</small>
+      <h5 class="mb-1">Cycle Name: {{ $CycleDetails->name }}</h5>
+      <small>{{ $CycleDetails->created_at->diffForHumans() }}</small>
     </div>
-    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-    <small>Donec id elit non mi porta.</small>
+    <p>Price: {{ $CycleDetails->price }} BDT</p>
+    <img width="100px" height="100px" src="{{ url('/uploads/uploads/'.$CycleDetails->image) }}" alt=""><br>
+
+    <p>Cycle Details: {{ $CycleDetails->description }}</p>
   </a>
 
   @endsection
+
+
+
