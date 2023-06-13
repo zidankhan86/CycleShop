@@ -12,7 +12,7 @@ class IndexController extends Controller
     public function home(){
         $totalCustomer = Customer::get()->count();
         $totalProducts = Product::get()->count();
-        return view('backend.pages.home.home',compact('totalCustomer'));
+        return view('backend.pages.home.home',compact('totalCustomer','totalProducts'));
     }
 
     public function category(){
