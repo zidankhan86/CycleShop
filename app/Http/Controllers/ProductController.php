@@ -15,13 +15,24 @@ class ProductController extends Controller
 
     public function productStore(Request $request){
 
+
+
+        $imageName = null;
+
+        if ($request->hasFile('image')) {
+            $imageName = date('Ymdhis').'.'.$request->image->extension();
+            $request->image->storeAs('uploads', $imageName, 'public');
+        }
+
+         // dd($imageName);
+
         //dd($request->all());
         Product::create([
             "name" =>$request->name,
             "price"=>$request->price,
             "description"=>$request->description,
             "stock"=>$request->stock,
-            "image"=>$request->image,
+            "image"=>$imageName,
             "category_id"=>$request->category_id,
             "status"=>"pending",
 
