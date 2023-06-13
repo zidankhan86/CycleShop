@@ -59,4 +59,10 @@ class ProductController extends Controller
         return view('backend.pages.product.productEdit',compact('cycle','categories'));
 
     }
+
+    public function productView(){
+
+        return view('backend.pages.product.productView');
+
+    }
 }
